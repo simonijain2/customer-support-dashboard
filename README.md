@@ -10,8 +10,17 @@ A modern, responsive **Customer Support Dashboard** built with **React.js**, **T
 - **Quick Inline Status Modification**: Change ticket status directly from list view, card view, or kanban board.
 - **Ticket Details Side Panel Drawer**: View customer info, issue summary, priority/status controls, conversation history, canned quick replies, and internal team notes.
 - **State & REST API Handling**: Powered by Zustand with simulated REST API network latency, LocalStorage caching, and controllable API error testing mode.
+- 
+ ## Technology Stack
+Core Framework: React 19 + Vite for rapid development and clean component modularity.
+Styling: Tailwind CSS + Lucide Icons + Framer Motion (for micro-animations, slide-over drawers, state transitions, and toast notifications).
+State Management: Zustand store (useTicketStore) managing tickets, search/filter criteria, active views, loading/error states, and async API operations.
+Mock REST API: Modular API service layer (services/ticketApi.js) simulating realistic network requests (GET, POST, PUT), network latency, LocalStorage caching, and controllable error handling.
 
-## 🛠️ Getting Started
+## live deployment link
+ https://customer-support-dashboard-kappa.vercel.app/
+ 
+## 🛠️ Getting Started 
 
 ### Installation
 
